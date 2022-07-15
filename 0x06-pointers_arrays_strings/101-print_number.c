@@ -2,9 +2,12 @@
 
 /**
 * print_number - prints an integer
-* @n:integer to be printed
 *
+* @n: integer to be printed
+*
+* Return: @n
 */
+
 void print_number(int n)
 {
 	unsigned int num = n;
@@ -15,9 +18,10 @@ void print_number(int n)
 		num = -num;
 	}
 
-	if ((num / 10) > 0)
+	else
+		((num / 10) > 0)
 		print_number(num / 10);
 
 	putchar((num % 10) + '0');
-	return (0);
+	return (n);
 }
