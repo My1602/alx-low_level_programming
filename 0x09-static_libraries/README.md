@@ -1,1 +1,1 @@
-Readme file for 0x09-static_libraries
+project about 0x09-static_libraries
