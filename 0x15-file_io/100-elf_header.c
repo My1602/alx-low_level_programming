@@ -182,13 +182,8 @@ void print_osabi(unsigned char *e_ident)
  */
 void print_abi(unsigned char *e_ident)
 {
-<<<<<<< HEAD
 	printf("  ABI Version:                       %d\n",
 	       e_ident[EI_ABIVERSION]);
-=======
-	printf("  ABI Version: %d\n",
-		e_ident[EI_ABIVERSION]); /*EI_ABIVERSION = ABI version*/
->>>>>>> 4091e182983e82dcd490f314a3fd9e150d295836
 }
 
 /**
